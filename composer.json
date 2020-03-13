@@ -1,0 +1,76 @@
+{
+	"name": "Primeiro projeto",
+	"description": "Meu primeiro projeto",
+	"authors": [
+		{
+			"name": "Lilian Linda",
+			"role": "Programador"
+
+		}
+	],
+	"require-dev": {
+		"jquery/jquery2":"*",
+		"jquery/jquery3":"*",
+		"popper/popper":"*",
+		"bootstrap/bootstrap1":"*",
+		"bootstrap/bootstrap2":"*"
+	},
+	"repositories": [
+		{
+			"type":"package",
+			"package": {
+				"name":"jquery/jquery2",
+				"version":"3.2.1",
+				"dist": {
+					"url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js",
+					"type":"file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"jquery/jquery3",
+				"version":"3.3.1",
+				"dist": {
+					"url": "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+					"type":"file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"popper/popper",
+				"version":"1.14.6",
+				"dist": {
+					"url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js",
+					"type":"file"
+				}
+			}
+		},
+			{
+			"type":"package",
+			"package": {
+				"name":"bootstrap/bootstrap1",
+				"version":"4.1.1",
+				"dist": {
+					"url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js",
+					"type":"file"
+				}
+			}
+		},
+			{
+			"type":"package",
+			"package": {
+				"name":"bootstrap/bootstrap2",
+				"version":"4.2.1",
+				"dist": {
+					"url": "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js",
+					"type":"file"
+				}
+			}
+		}
+
+		]
+}
