@@ -13,7 +13,12 @@
 		"jquery/jquery3":"*",
 		"popper/popper":"*",
 		"bootstrap/bootstrap1":"*",
-		"bootstrap/bootstrap2":"*"
+		"bootstrap/bootstrap2":"*",
+		"bootstrap/bootstrapCSS":"*",
+		"fontawesome/fontawesome":"*",
+		"bootstrap/bootstrapreserva":"*",
+		"bootstrap/bootstrapJS":"*",
+		"jquery/jqueryreserva":"*"
 	},
 	"repositories": [
 		{
@@ -70,7 +75,64 @@
 					"type":"file"
 				}
 			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"bootstrap/bootstrapCSS",
+				"version":"4.1.1",
+				"dist": {
+					"url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css",
+					"type":"file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"fontawesome/fontawesome",
+				"version":"5.0.10",
+				"dist": {
+					"url": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+					"type":"file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"bootstrap/bootstrapreserva",
+				"version":"3.1.0",
+				"dist": {
+					"url": "https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css",
+					"type":"file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"bootstrap/bootstrapJS",
+				"version":"3.1.0",
+				"dist": {
+					"url": "https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js",
+					"type":"file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"jquery/jqueryreserva",
+				"version":"1.11.1",
+				"dist": {
+					"url": "https://code.jquery.com/jquery-1.11.1.min.js",
+					"type":"file"
+				}
+			}
 		}
 
 		]
 }
+
+

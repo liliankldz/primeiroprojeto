@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "96d9b2d37f3b10cea1e7b299311800b8",
-    "content-hash": "a9a88dd4e00f60bc350038999f3901fb",
+    "hash": "500a0364b80167c01e7527c10d4b3e66",
+    "content-hash": "b69bf4fa635224906a47eca3c81991d2",
     "packages": [],
     "packages-dev": [
         {
@@ -31,6 +31,50 @@
             "type": "library"
         },
         {
+            "name": "bootstrap/bootstrapCSS",
+            "version": "4.1.1",
+            "dist": {
+                "type": "file",
+                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "bootstrap/bootstrapJS",
+            "version": "3.1.0",
+            "dist": {
+                "type": "file",
+                "url": "https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "bootstrap/bootstrapreserva",
+            "version": "3.1.0",
+            "dist": {
+                "type": "file",
+                "url": "https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "fontawesome/fontawesome",
+            "version": "5.0.10",
+            "dist": {
+                "type": "file",
+                "url": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
             "name": "jquery/jquery2",
             "version": "3.2.1",
             "dist": {
@@ -47,6 +91,17 @@
             "dist": {
                 "type": "file",
                 "url": "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "jquery/jqueryreserva",
+            "version": "1.11.1",
+            "dist": {
+                "type": "file",
+                "url": "https://code.jquery.com/jquery-1.11.1.min.js",
                 "reference": null,
                 "shasum": null
             },

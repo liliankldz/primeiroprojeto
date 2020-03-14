@@ -4,7 +4,7 @@
       <title>Cardápio</title>
       <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900" rel="stylesheet">
-      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <link href="vendor/bootstrap/bootstrapCSS/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
       <link href="assets/css/cardapio.css" rel="stylesheet" type="text/css" >
 
    </head>
@@ -20,12 +20,30 @@
                   </div>
                </div>
             </div>
+
+            <section class="menu_list mt-60 mb-60">
+             <div class="row">
+                  <ul class="nav nav-tabs menu_tab" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link" id="breakfast-tab" data-toggle="tab" href="index.html" role="tab" aria-selected="false">Início</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="lunch-tab" data-toggle="tab" href="reserva.html" role="tab" aria-selected="false">Reservas</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="lunch-tab" data-toggle="tab" href="reserva.html" role="tab" aria-selected="false">Contato</a>
+                    </li>
+                  </ul>
+               </div>
+               </section>   
+
             <div class="row menu_style1">
                <div class="col-md-4">
                   <div class="single_menu_list">
                      <img src="https://fit7alimentos.com.br/novo/wp-content/uploads/2017/12/espaguete-integral-a-bolonhesa-e1529668546449.jpg" alt="">
                      <div class="menu_content">
-                        <h4>Alla Bolognesa<span>$45</span></h4>
+                        <h4>Alla Bolognesa<span>R$32</span></h4>
                         <p>carne moída selecionada, temperada, acrescida à polpa de tomate</p>
                      </div>
                   </div>
@@ -34,7 +52,7 @@
                   <div class="single_menu_list">
                      <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F39%2F2019%2F09%2F20225243%2Fp_RU292239.jpg" alt="">
                      <div class="menu_content">
-                        <h4>Alla Carbonara<span>$45</span></h4>
+                        <h4>Alla Carbonara<span>R$32</span></h4>
                         <p>molho branco com gemas de ovos, cubinhos de bacon e salsinha</p>
                      </div>
                   </div>
@@ -43,7 +61,7 @@
                   <div class="single_menu_list">
                      <img src="https://skinnyspatula.com/wp-content/uploads/2020/01/Tagliatelle-ai-Funghi-Mushroom-Pasta1-720x720.jpg" alt="">
                      <div class="menu_content">
-                        <h4>Ai Funghi<span>$45</span></h4>
+                        <h4>Ai Funghi<span>R$37</span></h4>
                         <p>funghi triturado, flambado, com molho branco e parmesão</p>
                      </div>
                   </div>
@@ -52,7 +70,7 @@
                   <div class="single_menu_list">
                      <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/f2/39/68/mes-amis.jpg" alt="">
                      <div class="menu_content">
-                        <h4>All´Italiano<span>$45</span></h4>
+                        <h4>All´Italiano<span>R$35</span></h4>
                         <p>combinação de molho de polpa de pomodori e molho ao sugo, com cubos de mignon flambado, mozzarella de búfala e champignon laminado</p>
                      </div>
                   </div>
@@ -61,7 +79,7 @@
                   <div class="single_menu_list">
                      <img src="https://s23209.pcdn.co/wp-content/uploads/2014/10/IMG_0689edit-360x360.jpg" alt="">
                      <div class="menu_content">
-                        <h4>Alla Mastroiane<span>$45</span></h4>
+                        <h4>Alla Mastroiane<span>R$42</span></h4>
                         <p>combinação de molho elaborado com pomodori, molho quatro queijos, manjericão e cubos de bacon</p>
                      </div>
                   </div>
@@ -70,7 +88,7 @@
                   <div class="single_menu_list">
                      <img src="https://media.blueapron.com/recipes/21413/square_newsletter_images/1548272086-426-0061-8513/0225_2PRE08_Pork-Ragu_2393_Square_hi_res.jpg?quality=80&width=600" alt="">
                      <div class="menu_content">
-                        <h4>Alla Fiorentina<span>$45</span></h4>
+                        <h4>Alla Fiorentina<span>R$33</span></h4>
                         <p>creme de espinafre, gorgonzola e gratinado com parmesão</p>
                      </div>
                   </div>
@@ -79,7 +97,7 @@
                   <div class="single_menu_list">
                      <img src="https://spicysouthernkitchen.com/wp-content/uploads/Thai-Chicken-Pasta-3.jpg" alt="">
                      <div class="menu_content">
-                        <h4>Alla Parigina<span>$45</span></h4>
+                        <h4>Alla Parigina<span>R$32</span></h4>
                         <p>molho branco com cubinhos de presunto, ervilhas frescas, frango desfiado e champignon laminado</p>
                      </div>
                   </div>
@@ -88,31 +106,24 @@
                   <div class="single_menu_list">
                      <img src="https://rasamalaysia.com/wp-content/uploads/2019/12/aglio-olio-thumb.jpg" alt="">
                      <div class="menu_content">
-                        <h4>Alla Pietá <span>$45</span></h4>
+                        <h4>Alla Pietá <span>R$45</span></h4>
                         <p>mozzarella di búfala, carciofini, tomate cereja, shitake, camarões 7 barbas, azeite e manjericão</p>
                      </div>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="single_menu_list">
-                     <img src="http://infinityflamesoft.com/html/restarunt-preview/assets/img/menu/menu-2.jpg" alt="">
+                     <img src="https://semsegredo.com/wp-content/uploads/2019/08/MACARR%C3%83O-COM-BROCOLIS-500x500.jpg" alt="">
                      <div class="menu_content">
-                        <h4>Chicken Fried Salad  <span>$45</span></h4>
-                        <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                        <h4>Ai Broccoli <span>R$39</span></h4>
+                        <p>brócolis preparado ao azeite com azeite com alho e salsinha</p>
                      </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row pb-60">
-               <div class="col-xl-12 text-center">
-                  <div class="box_btn">
-                     <a href="#">load more</a>
                   </div>
                </div>
             </div>
          </div>
       </section>
      </body>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+     <script src="vendor/jquery/jquery2/jquery.min.js"></script>
+     <script src="vendor/bootstrap/bootstrap1/bootstrap.min.js"></script>
 </html>
